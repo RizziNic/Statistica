@@ -8,11 +8,11 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         System.out.println("MENU");
-        System.out.println("1" + "aggiungi dato");
-        System.out.println("2" + "aggiungi dato");
-        System.out.println("3" + "aggiungi dato");
+        System.out.println("1" + " aggiungi dato");
+        System.out.println("2" + " aggiungi dato");
+        System.out.println("3" + " aggiungi dato");
 
-        int i = input.nextInt();
+        //int i = input.nextInt();
 
 
 
