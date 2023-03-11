@@ -21,5 +21,4 @@ public class Dato {
     public float getAltezza(float altezza){
         return altezza;
     }
-
 }
