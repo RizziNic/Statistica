@@ -1,15 +1,12 @@
 package com.company;
 
-
-
-
 public class Statistica {
 
     private Dato[] dati;
     private int count;
 
     public Statistica() {
-        Dato[]  dati = new Dato[3];
+        Dato[] dati = new Dato[3];
         count = 0;
     }
 

@@ -15,6 +15,8 @@ public class Main {
         System.out.println("3" + " esci");
 
         int i = input.nextInt();
+        input.nextLine();
+
         while(i!=3) {
             switch (i) {
                 case 1:
@@ -22,8 +24,9 @@ public class Main {
                     String cognome = input.nextLine();
                     String nome = input.nextLine();
                     float altezza = input.nextFloat();
+                    input.nextLine();
                     i = input.nextInt();
-                    //stat.addDato("Rossi", "Marco", 192);
+                    stat.addDato("Rossi", "Marco", 192);
                     break;
 
                 case 2:

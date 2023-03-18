@@ -1,9 +1,9 @@
 package com.company;
 
 public class Dato {
-    private String cognome;
-    private String nome;
-    private float altezza;
+    private String cognome = "rizzi";
+    private String nome = "nico";
+    private float altezza = 190;
 
     Dato(String cognome,String nome,float altezza) {
         this.cognome = cognome;
