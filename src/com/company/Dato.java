@@ -11,14 +11,14 @@ public class Dato {
         this.altezza = altezza;
     }
 
-    public String getCognome(String cognome){
-        return cognome;
+    public String getCognome(){
+        return this.cognome = cognome;
     }
 
-    public String getNome(String nome){
-        return nome;
+    public String getNome(){
+        return this.nome = nome;
     }
-    public float getAltezza(float altezza){
-        return altezza;
+    public float getAltezza(){
+        return this.altezza = altezza;
     }
 }

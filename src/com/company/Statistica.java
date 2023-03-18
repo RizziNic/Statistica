@@ -1,18 +1,24 @@
 package com.company;
 
+import java.lang.reflect.MalformedParameterizedTypeException;
+
 public class Statistica {
 
-    private Dato[] arr = new Dato[10];
+    private Dato[] dati;
     private int count;
 
-    Statistica(Dato[] arr, int count){
-        this.arr = arr;
-        this.count = count;
+    public Statistica() {
+        Dato[]  dati = new Dato[3];
+        count = 0;
     }
-    public Dato[] getArr(Dato[] Arr){
-        return arr;
+
+    public Dato getDato(int k){
+        return dati[k];
     }
-    public int getCount(int count){
-        return count;
+
+    public void addDato(String cognome, String nome, float Altezza){
+        Dato dati2 = new Dato(nome, cognome, Altezza);
+        dati[count] = dati2;
+        count++;
     }
 }
