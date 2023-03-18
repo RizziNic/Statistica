@@ -1,6 +1,7 @@
 package com.company;
 
 import java.lang.reflect.MalformedParameterizedTypeException;
+import java.security.PublicKey;
 
 public class Statistica {
 
@@ -20,5 +21,9 @@ public class Statistica {
         Dato dati2 = new Dato(nome, cognome, Altezza);
         dati[count] = dati2;
         count++;
+    }
+
+    public int getCount(int count){
+        return count;
     }
 }

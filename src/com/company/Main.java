@@ -22,13 +22,21 @@ public class Main {
                     String cognome = input.nextLine();
                     String nome = input.nextLine();
                     float altezza = input.nextFloat();
-                    stat.addDato("Rossi", "Marco", 192);
+                    i = input.nextInt();
+                    //stat.addDato("Rossi", "Marco", 192);
                     break;
 
                 case 2:
                     System.out.println("Inserire numero da 1 a 3");
                     int k = input.nextInt();
-                    System.out.println();
+                    System.out.println(stat.getDato(k).getNome());
+                    System.out.println(stat.getDato(k).getCognome());
+                    System.out.println(stat.getDato(k).getAltezza());
+                    i = input.nextInt();
+                    break;
+
+                default:
+                    break;
             }
         }
 
